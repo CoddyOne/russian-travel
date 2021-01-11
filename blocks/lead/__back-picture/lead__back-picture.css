@@ -19,16 +19,22 @@
 
     }
 }
+
+@media screen and (max-width:565px){
+    .lead__back-picture{
+        top: 55px;
+        left: 12px;
+    }
+}
+
 @media screen and (max-width:425px){
     .lead__back-picture{
-        max-width: 90%;
         top: 45px;
         left: 10px;
     }
 }
 @media screen and (max-width:320px){
     .lead__back-picture{
-        max-width: 90%;
         top: 30px;
         left: 7px;
     }
