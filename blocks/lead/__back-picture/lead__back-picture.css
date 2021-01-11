@@ -1,0 +1,35 @@
+.lead__back-picture{
+    position: absolute;
+    top: 90px;
+    left: 23px;
+    max-width: 100%;
+}
+@media screen and (max-width:1024px){
+    .lead__back-picture{
+        max-width: 95%;
+        top: 85px;
+        left: 22px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .lead__back-picture{
+        top: 70px;
+        left: 18px;
+
+    }
+}
+@media screen and (max-width:425px){
+    .lead__back-picture{
+        max-width: 90%;
+        top: 45px;
+        left: 10px;
+    }
+}
+@media screen and (max-width:320px){
+    .lead__back-picture{
+        max-width: 90%;
+        top: 30px;
+        left: 7px;
+    }
+}

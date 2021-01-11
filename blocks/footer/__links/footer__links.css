@@ -1,0 +1,17 @@
+.footer__links{
+    padding-right: 18px;
+}
+
+.footer__links:last-of-type{
+    padding-right: 0;
+}
+
+@media screen and (max-width:320px){
+    .footer__links{
+        padding-bottom: 32px;
+        padding-right: 0;
+    }
+    .footer__links:last-of-type{
+        padding-bottom: 0;
+    }
+}
