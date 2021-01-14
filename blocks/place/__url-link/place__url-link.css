@@ -2,6 +2,10 @@
     color: #fff;
     font-size: 18px;
     line-height: 22px;
-    font-family: "Inter";
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
+}
+
+.place__url-link:hover{
+    opacity: .8;
 }

@@ -11,12 +11,18 @@
     }
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:660px){
+    .footer{
+        flex-direction: column;
+    }
+}
+
+
+
+@media screen and (max-width:425px){
     .footer{
         max-width: 186px;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-direction: column;
         margin: 0px 16px 24px;
+        align-items: start;
     }
 }
