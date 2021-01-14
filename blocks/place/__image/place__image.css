@@ -4,8 +4,3 @@
     grid-row: 2/3;
 }
 
-@media screen and (max-width:320px){
-    .place__image{
-        grid-row: 3/4;
-    }
-}

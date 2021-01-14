@@ -1,5 +1,14 @@
 .cover__link{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    z-index: 1;
+    max-width: 1184px;
+    min-height: 740px;
+    background-color: rgba(42 44 47 / .3);
+}
+
+.cover__link:hover{
+    background-color: rgba(42 44 47 / .8);
 }
