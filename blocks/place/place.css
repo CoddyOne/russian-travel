@@ -35,9 +35,9 @@
 
 @media (max-width:320px){
     .place{
-			justify-items: start;
-			grid-template-columns: 320px;  
-			margin-bottom: 50px;
+        justify-items: start;
+        grid-template-columns: 320px;
+        margin-bottom: 50px;
     }
 }
 
