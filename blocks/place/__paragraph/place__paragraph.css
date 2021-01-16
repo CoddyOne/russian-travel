@@ -12,3 +12,36 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+
+@media screen and (max-width:768px){
+    .place__paragraph{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .place__paragraph:last-child{
+        margin-bottom: 0;
+    }
+} 
+
+@media screen and (max-width:660px){
+    .place__paragraph{
+        font-size: 16px;
+        line-height: 26px;
+        margin: 10px 16px 25px;
+    }
+    .place__paragraph:last-child{
+        margin-bottom: 0;
+    }
+} 
+
+@media screen and (max-width:490){
+		.place__paragraph{
+			margin: 10px auto 25px;
+		}
+}
+
+@media screen and (max-width:320px){
+    .place__paragraph{
+        margin: 32px 16px 25px;
+		}
+}

@@ -5,3 +5,29 @@
     flex-direction: column;
     align-self: start;
 }
+
+@media screen and (max-width:1024px){
+    .intro{
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .intro{
+        max-width: 720px;
+        margin: 0 24px 88px;
+    }
+}
+
+@media screen and (max-width:560px){
+    .intro{
+        max-width: 560px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .intro{
+        max-width: 288px;
+        margin: 0 16px 64px;
+    }
+}
