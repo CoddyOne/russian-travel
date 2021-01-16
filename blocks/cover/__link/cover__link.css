@@ -12,3 +12,10 @@
 .cover__link:hover{
     background-color: rgba(42 44 47 / .8);
 }
+
+@media screen and (max-width:425px){
+    .cover__link{
+        max-width: 425px;
+        min-height: 200px;
+    }
+}
