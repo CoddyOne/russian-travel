@@ -10,22 +10,24 @@
 }
 
 @media screen and (max-width:768px){
-    .cover__title{
-        max-width: 560px;
-    }
+	.cover__title{
+		max-width: 560px;
+	}
 }
 
 @media screen and (max-width:510px){
 	.cover__title{
-			max-width: 350px;
+		font-size: 45px;
+		line-height: 48px;
+		max-width: 350px;
 	}
 }
 
 @media screen and (max-width:425px){
-    .cover__title{
-        font-size: 32px;
-        line-height: 35px;
-        margin-bottom: 16px;
-        max-width: 288px;
-    }
+	.cover__title{
+		font-size: 32px;
+		line-height: 35px;
+		margin-bottom: 16px;
+		max-width: 288px;
+	}
 }

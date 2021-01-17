@@ -8,11 +8,11 @@
 
 
 @media screen and (max-width:700px){
-    .footer__links{
-        padding-bottom: 32px;
-        padding-right: 0;
-    }
-    .footer__links:last-of-type{
-        padding-bottom: 0;
-    }
+	.footer__links{
+		padding-bottom: 32px;
+		padding-right: 0;
+	}
+	.footer__links:last-of-type{
+		padding-bottom: 0;
+	}
 }
